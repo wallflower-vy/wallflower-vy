@@ -1,0 +1,121 @@
+.left-banner-box{
+    width:40%;
+    height:500px;
+    /* background-color: red; */
+    margin-left:80px;
+    float:left;
+    padding: 140px 50px;
+}
+.heading{
+    font-weight: bolder;
+    color:white;
+}
+.sub-heading{
+    margin-bottom: 23px;
+    font-size: 26px;
+    color:white;
+}
+.text{
+    margin-bottom: 55px;
+    font-size: 18px;
+}
+.textone{
+    margin-bottom: 55px;
+    font-size: 17px;
+    color:white;
+
+}
+.signup-btn{
+    background-color: white;
+    color:#5373E3;
+    padding:10px 55px;
+    border:none;
+    /* transition: .7s; */
+    /* cursor: pointer; */
+    margin-right: 10px;
+    border-radius: 5px;
+}
+.signup-btn:hover{
+    background-color: white;
+    color:black;
+    padding:10px 55px;
+    border:none;
+    transform: translateY(5px);
+  /* transition:0.5s all; */
+  transition: 0.5s ease-in-out;
+    /* cursor: pointer; */
+    margin-right: 10px;
+    border-radius: 5px;
+}
+
+.learn-btn{
+    background-color:#0B2C4D;
+    color:white;
+    padding:10px 45px;
+    border:none;
+    /* cursor: pointer; */
+    border-radius: 5px;
+}
+.learn-btn:hover{
+    transform: translateY(5px);
+  
+  transition: 0.5s ease-in-out;
+
+}
+
+
+@media screen and (max-width: 480px){
+    .left-banner-box{
+       width:200%;
+       margin-left:-90px ;
+       margin-top: -120px;
+       padding-top: -40px;
+       padding-left: 17px;
+       height:550px;
+       float:none ;
+    }
+    .sub-heading{
+        margin-top: -20px;
+        margin-bottom: 23px;
+        font-size: 24px;
+        color:white;
+    }
+    .text{
+        margin-bottom: 55px;
+        font-size: 18px;
+    }
+    .textone{
+        margin-bottom: 55px;
+        font-size: 17px;
+        color:white;
+    
+    }
+    .signup-btn{
+        background-color: white;
+        color:#5373E3;
+        padding:10px 50px;
+        border:none;
+        margin-bottom: 10px;
+        /* cursor: pointer; */
+        /* margin-right: 10px; */
+        border-radius: 5px;
+    }
+    .signup-btn:hover{
+        background-color: white;
+        color:black;
+        padding:10px 55px;
+        border:none;
+        /* cursor: pointer; */
+        margin-right: 10px;
+        border-radius: 5px;
+    }
+    
+    .learn-btn{
+        background-color:#0B2C4D;
+        color:white;
+        padding:10px 45px;
+        border:none;
+        /* cursor: pointer; */
+        border-radius: 5px;
+    }
+}

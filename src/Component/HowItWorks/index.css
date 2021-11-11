@@ -1,0 +1,23 @@
+.howit-works{
+    background-color: #F8F9FE;
+    /* background-color: red; */
+    text-align: center;
+    padding:80px 80px 50px 80px;
+    margin-top: 50px;
+    
+}
+
+@media screen and (max-width: 480px){
+    .howit-works{
+        background-color: #F8F9FE;
+        /* background-color: red; */
+        text-align: center;
+        width: 100%;
+        padding: 60px 20px;
+        margin-top:-10px;
+        
+    }
+    .hitworks{
+        margin-bottom: 20px;
+    }
+}

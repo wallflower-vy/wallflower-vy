@@ -1,0 +1,126 @@
+.mobile-page-box{
+    background-color: cornflowerblue;
+    /* height:400px; */
+    padding: 10px;
+    border-radius: 10px;
+    display: none;
+}
+.pagy{
+    background-color: cornflowerblue;
+    display: none;
+    padding: 10px;
+    border-radius: 10px;
+   
+}
+.mobile-logo-box{
+    display: flex;
+    flex-flow: row;
+    padding: 10px;
+}
+.page-logo{
+    justify-content: space-between;
+    width:70%;
+}
+.close-icon-box{
+    padding-top: 20px;
+    width:20%;
+    text-align: center;
+    
+}
+.mobile-logoo{
+    width:80%;
+}
+.mobile-nav-box{
+    /* background-color: red; */
+    margin-bottom: 30px;
+}
+.page-links{
+    display: block;
+    margin:5px;
+    padding: 5px;
+    color: black;
+}
+.page-icon-box{
+    padding: 5px;
+}   
+.page-list{
+    font-size: 16px;
+    padding:2px 0px 0px 0px;
+    color:black ;
+}
+.facebookk{
+    color:#0F2D4E;
+    font-size: 16px;
+    padding: 5px;
+    display: block;
+    opacity: 1;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 480px) {
+    .mobile-page-box{
+        position: absolute;
+        background-color: cornflowerblue;
+        height:420px;
+        padding: 10px;
+        border-radius: 10px;
+        display: block;
+        transition: 0.5s;
+        margin:10px;
+    }
+    .mobile-nav{
+        background-color: cornflowerblue;
+        display: block;
+        padding: 10px;
+        border-radius: 10px;
+       
+    }
+    .page-logo-box{
+        display: flex;
+        flex-flow: row;
+        padding: 10px;
+    }
+    .page-logo{
+        justify-content: space-between;
+        width:70%;
+    }
+    .close-icon-box{
+        padding-top: 20px;
+        width:20%;
+        text-align: center;
+        
+    }
+    .page-logoo{
+        width:80%;
+    }
+    .page-nav-box{
+        /* background-color: red; */
+        margin-bottom: 30px;
+    }
+    .page-links{
+        display: block;
+        margin:5px;
+        padding: 5px;
+        color: white;
+    }
+    .page-icon-box{
+        padding: 5px;
+    }  
+    hr{
+        color:white !important;
+    } 
+    .page-list{
+        font-size: 16px;
+        padding:2px 0px 0px 0px;
+        color:white ;
+    }
+    .facebookk{
+        color:#0F2D4E;
+        font-size: 16px;
+        padding: 5px;
+        display: block;
+        opacity: 1;
+        text-decoration: none;
+    }
+   
+}

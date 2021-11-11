@@ -1,0 +1,19 @@
+.mobileapp-box{
+    background-color:#F8F9FE;
+    padding: 40px 200px;
+    /* overflow: auto; */
+    display :flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+@media screen and (max-width: 480px){
+    .mobileapp-box{
+        background-color:#F8F9FE;
+        flex-flow: column;
+        padding:0px 5px;
+        margin-top: -40px;
+        /* overflow: auto; */
+    }
+}
+

@@ -1,0 +1,24 @@
+.cross-platform{
+    width: 45%;
+    margin-top: 20px;
+    padding: 2px 5px;
+    margin-left: 20px;
+    margin-right: 22px;
+}
+.cross-text{
+    font-size: 17.5px;
+    color:grey;
+}
+
+
+@media screen and (max-width: 480px){
+    .cross-platform{
+    width: 100%;
+    margin-top: 35px;
+    margin-bottom: 10px;
+    order:2;
+    padding:10px;
+    margin-left: 0px;
+    margin-right:0px;
+}
+}

@@ -1,0 +1,23 @@
+.program-box{
+    background-color: #0B2C4D;
+    text-align: center;
+    color:white;
+    padding:80px 0px;
+    height: 380px;
+}
+.heading{
+    margin-bottom:25px;
+}
+p{
+    font-size: 20px;
+}
+
+@media screen and (max-width: 480px){
+    .program-box{
+        background-color: #0B2C4D;
+        text-align: center;
+        color:white;
+        padding:80px 0px;
+        height: 500px;
+    }
+}

@@ -1,0 +1,16 @@
+.deskimage{
+   
+    width:49%;
+   
+}
+
+@media screen and (max-width: 480px){
+    .deskimage{
+        order:1;
+        width:100%;
+        margin-top: 100px;
+        justify-content: right;
+       
+    }
+    
+}

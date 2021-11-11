@@ -1,0 +1,162 @@
+.real-icons{
+    height: 600px;
+    position: relative;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: center;
+    /* background-color: indigo; */
+}
+.cf::after{
+    display: block;
+    content: '';
+    clear: both;
+}
+.icon-box{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.icon-box:hover{
+    position: relative;
+    filter:blur(7px);
+}
+.image-overlay-hide{
+    display: none;
+}
+.image-overlay-show{
+    display: block;
+    position: absolute;
+    z-index: 1;
+}
+
+.image-det{
+    color:green;
+    font-size: 14px;;
+
+}
+.icon-box1{
+    padding:30px 10px ;
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin-top:40px ;
+
+}
+.icon-box2{
+    padding: 30px 40px;
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+
+}
+.icon-box3{
+    padding:15px;
+    
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-bottom: 10px;
+}
+.icon-box4{
+    padding:15px 25px;
+    display: flex;
+    justify-content: space-between;
+    width: 35%;
+    margin-top: 20px;
+}
+.container-one{
+    background-color:white;
+    display: inline;
+    width:20%;
+    padding: 30px 25px;
+    border-radius: 50%;
+    border:1px 1px solid lightgray;
+    box-shadow: 2px 2px 70px 12px rgba(47, 123, 211, 0.151)  ;
+    margin-right:150px;
+
+}
+
+.boxy{
+    margin-right:250px;
+    
+}
+.container-two{
+    background-color:white;
+    display: inline;
+    width:10%;
+    padding: 15px 15px;
+    border-radius: 50%;
+    border:1px 1px solid lightgray;
+    box-shadow: 1px 1px 50px 10px rgba(47, 123, 211, 0.151)  ;
+    margin-right:170px;
+}
+.icon-one{
+    font-size: 35px;
+    color:rgba(94, 94, 228, 0.979);
+}
+.icon-two{
+    font-size: 25px;
+    color:rgba(94, 94, 228, 0.979);
+    
+}
+.icon-three{
+    font-size: 35px;
+    color:red;
+}
+.icon-link {
+    margin-bottom: 40px;
+}
+
+
+
+@media screen and (max-width: 480px){
+    .real-icons{
+        height: 400px;
+        position: relative;
+        display: flex;
+        flex-flow: column;
+        align-items: center;
+        justify-content: center;
+        /* background-color: rgb(130, 130, 131); */
+        overflow: hidden;
+        
+    }
+    
+    
+    .icon-box:hover{
+        position: relative;
+        filter:blur(7px);
+    }
+
+    .icon-box1{
+        padding:30px 0px ;
+        display: flex;
+        justify-content: space-between;
+        width: 92%;
+        margin-top:40px ;
+        /* background-color: yellow; */
+    
+    }
+    .icon-box2{
+        /* background-color: teal; */
+        display: none;
+    
+    }
+    .icon-box3{
+        padding:15px 20px;
+        /* background-color: blue; */
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        margin-bottom: 10px;
+    }
+    .icon-box4{
+        padding:15px 25px;
+        display: flex;
+        justify-content: space-between;
+        width: 30%;
+        margin-top: 20px;
+        /* background-color: tomato; */
+    }
+}

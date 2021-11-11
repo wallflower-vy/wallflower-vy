@@ -1,0 +1,17 @@
+.desktop-app{
+    background-color: #F8F9FE;
+    overflow: auto;
+    display:flex;
+    flex-flow: row;
+    justify-content: space-between;
+    padding: 40px 200px;
+}
+
+@media screen and (max-width: 480px){
+    .desktop-app{
+        background-color: #F8F9FE;
+        flex-flow: column;
+        padding: 0px 10px;
+    }
+    
+}

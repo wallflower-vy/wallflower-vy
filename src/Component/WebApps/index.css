@@ -1,0 +1,16 @@
+.webapp-box{
+    background-color:#F8F9FE;
+    padding: 100px 200px;
+    overflow: auto;
+}
+
+@media screen and (max-width: 480px){
+    .webapp-box{
+        background-color:#F8F9FE;
+        /* background-color: lawngreen; */
+        padding: 20px;
+        overflow: none;
+    }
+    
+}
+

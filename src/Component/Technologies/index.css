@@ -1,0 +1,57 @@
+.tech-box{
+    
+    padding: 70px 250px;
+    justify-content: center;
+    /* background-color: blue; */
+}
+
+.content-box{
+    /* background-color: crimson; */
+    width:66%;
+    padding: 5px;
+    margin-left: 155px;
+    text-align: center;
+}
+.tech-heading{
+    margin-bottom: 20px;
+}
+.tech-text{
+    opacity: .9;
+}
+.tech-btn{
+    margin-right: 12px;
+    padding: 10px 20px;
+    background-color: #5373E3;
+    border:none;
+    color:white;
+    border-radius: 5px;
+    box-shadow: 1px 3px 5px lightgray;
+}
+.signing-btn{
+    margin-right: 12px;
+    padding: 10px 15px;
+    background-color: #0B2C4D;
+    border:none;
+    color:white;
+    border-radius: 5px;
+
+}
+
+
+@media screen and (max-width: 480px){
+    .tech-box{
+        padding: 20px;
+        margin-top: 40px;
+    }
+    .content-box{
+        width:100%;
+        padding: 40px 5px;
+        margin-left: 0px;
+        text-align: center;
+    }
+    .tech-text{
+        opacity: .8;
+        margin-bottom: 70px;
+    }
+}
+

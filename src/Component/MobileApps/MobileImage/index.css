@@ -1,0 +1,20 @@
+.mobileimage-box{
+    width:50%;
+    /* background-color: red; */
+    /* float: right; */
+}
+.platform-image{
+    width:95%;
+}
+@media screen and (max-width: 480px){
+    .mobileimage-box{
+        width:100%;
+        margin-top: 100px;
+        order:1;
+        /* background-color: green; */
+      
+    }
+    .platform-image{
+        width:100%;
+    }
+}

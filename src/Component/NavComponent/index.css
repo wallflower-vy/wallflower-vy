@@ -1,0 +1,105 @@
+.nav-box{
+    background-color: #5373E3;
+    padding: 10px;
+    overflow: auto;
+}
+.logo-box{
+    /* background-color: green; */
+    width:35%;
+    margin-left: 15%;
+    padding: 10px;
+    float:left;
+}
+.logo{
+    width: 28%;
+    padding: 10px;
+}
+.menu{
+    float:right;
+    color:white;
+    font-size: 33px;
+    padding: 0px 12px;
+    display: none;
+}
+.nav-menu{
+    background-color: aqua;
+    width:30%;
+    padding: 10px;
+}
+.nav-links{
+    font-size: 14px;
+}
+li > a{
+    padding: 0px 20px;
+    text-decoration: none;
+    color: white;
+}
+
+li{
+    list-style-type: none;
+    display: inline;
+}
+.facebook{
+    color:white;
+    font-size: 33px;
+    padding: 2px 10px;
+    opacity: 1
+}
+.facebook:hover {
+    color:white;
+    font-size: 32px;
+    padding: 2px 10px;
+    opacity:.6;
+}
+
+.nav-icons-box{
+    /* background-color: purple; */
+    width: 20%;
+    float:right;
+    padding-top:10px ;
+    margin-left: 10px;
+    
+    /* display: inline; */
+}
+
+
+
+
+@media screen and (max-width: 480px) {
+  
+    .nav-box{
+        /* background-color: red; */
+        width:100%;
+        overflow: hidden;
+        padding: 0px;
+
+    }
+    .logo-box{
+        width: 100%;
+        margin-left: 0px;
+        padding:5px;
+        overflow: auto;
+
+    }
+    .logo{
+        width:45%;
+        margin-top: 5px;
+        float:left;
+    }
+    .nav-icons-box{
+        background-color: yellow;
+        display: none;
+    }
+    .nav-links{
+        display: none;
+    }
+    .menu{
+        float:right;
+        color:white;
+        font-size: 33px;
+        padding: 3px 12px;
+        display: inline;
+        
+    }
+    
+  }

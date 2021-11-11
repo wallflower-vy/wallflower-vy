@@ -1,0 +1,113 @@
+.blue-box{
+    background-color: #F8F9FE;
+    margin-top: -20px;
+    padding-bottom: 20px;
+    /* text-align: center; */
+    /* padding: 10px 30px 10px 30px; */
+    /* margin: 10px auto; */
+    
+}
+.blue-boxes{
+    background-color:#14214D ;
+    border-radius: 10px;
+    /* height:400px; */
+    margin: 10px auto;
+    width:50%;
+    padding: 35px;
+}
+.step-one{
+    /* background-colo/r:; */
+    border-style:none none none dotted;
+    width:67%;
+    color: white;
+    padding: 10px 30px 40px 30px;
+}
+.blue-text{
+    color:white;
+    display: inline;
+    margin-left: 15px;
+    font-size: 16px;
+    opacity: .8;
+}
+.blue-content{
+    font-size: 12px;
+}
+.red{
+    color: red;
+    text-decoration: none;
+}
+.red:hover{
+    color: red;
+    text-decoration: none;
+    opacity: .8;
+}
+.font-icon{
+    padding: 8px 8px;
+    background-color:#9AF0D5 ;
+    width:5%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -17px;
+    display:inline;
+}
+.font-icon2{
+    padding: 8px 8px;
+    background-color:#FFCFD8 ;
+    width:5%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -17px;
+    display:inline;
+}
+.font-icon3{
+    padding: 8px 8px;
+    background-color:#90EFFB;
+    width:5%;
+    text-align: center;
+    border-radius: 50%;
+    margin-left: -17px;
+    display:inline;
+}
+.blue-sign{
+    font-size: 18px;
+}
+.blue-icon{
+    font-size:23px;
+    color:#00B175;
+    /* padding: 5px; */
+}
+.red-icon{
+    font-size:23px;
+    color:#FF0000;
+    /* padding: 5px; */
+}
+.green-icon{
+    font-size:23px;
+    color: #00AFCC;
+}
+
+
+@media screen and (max-width: 480px){
+    .blue-box{
+        background-color: #F8F9FE;
+        margin-top: -20px;
+        padding:30px 10px;
+    }
+    .blue-boxes{
+        background-color:#14214D ;
+        border-radius: 10px;
+        margin: 0px;
+        width:100%;
+        padding: 35px;
+    }
+    .step-one{
+        border-style:none none none dotted;
+        width:100%;
+        color: white;
+        padding: 10px 30px 40px 30px;
+    }
+    .blue-content{
+        font-size: 14px;
+    }
+    
+}
