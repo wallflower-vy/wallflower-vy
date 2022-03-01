@@ -7,7 +7,7 @@ const RightBanner=()=>{
     return(
         <div className ="right-banner-box">
             <Card margin={15} >
-                <span className ="hand"><div className ="box">{featureOne.icon}</div></span>
+                <span><div className ="box">{featureOne.icon}</div></span>
                 <h5>{featureOne.title}</h5>
                 <p className ="text">{featureOne.text}</p>
             </Card>

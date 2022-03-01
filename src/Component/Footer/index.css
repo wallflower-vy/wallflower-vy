@@ -4,6 +4,7 @@
     color:white;
     font-size: 14px;
     overflow: auto;
+    /* clip-path: ellipse(177% 100% at 159.22% 100%); */
 
 }
 .footer-box{

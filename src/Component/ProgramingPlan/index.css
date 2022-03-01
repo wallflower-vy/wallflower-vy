@@ -2,8 +2,15 @@
     background-color: #0B2C4D;
     text-align: center;
     color:white;
-    padding:80px 0px;
-    height: 380px;
+    padding:150px 0px;
+    height: 450px;
+    clip-path: ellipse(147% 100% at 115.96% 100%);
+   
+}
+
+.program-box-parent{
+    background-color: #5373E3;
+    
 }
 .heading{
     margin-bottom:25px;

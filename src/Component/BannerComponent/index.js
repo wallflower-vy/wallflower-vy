@@ -5,15 +5,17 @@ import RightBanner from "./RightBanner";
 
 
 
-const  BannerComponent =()=>{
-    return(
-        <div className="banner-box">
-        <LeftBanner/>
-        <RightBanner />
-            
+const BannerComponent = () => {
+    return (
+        <div className="banner-box ">
+            <div className='wrap'>
+                <LeftBanner />
+                <RightBanner />
+            </div>
 
-    
-    </div>
+
+
+        </div>
     )
 }
 export default BannerComponent;

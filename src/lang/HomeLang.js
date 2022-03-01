@@ -1,7 +1,8 @@
-import { FaRegHandPointUp} from "react-icons/fa"
+import { FaRegHandPointUp} from "react-icons/fa";
+import './index.css';
 
 export const featureOne =  {
-    icon:  <FaRegHandPointUp /> ,
+    icon:  <FaRegHandPointUp  className="icon-point1"/> ,
     title:"Concept",
     text:"In short time, you will learn and understand the concept of programming. "
 }
@@ -21,4 +22,4 @@ export const featureFour =  {
     icon:<FaRegHandPointUp /> ,
     title:"Produce",
     text:"Roll-out apps like Facebook, Twitter, Whatsapp Jumia, Opay, Games,e.t.c "
-}
+} 

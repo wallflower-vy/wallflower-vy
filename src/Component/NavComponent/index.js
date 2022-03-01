@@ -56,7 +56,7 @@ const NavComponent = () => {
     return (
        <>
        {menuState ? <Nav switchMenuState={switchMenuState}  /> :<MobileNav switchMenuState={switchMenuState} />}
-       { switchmenue()}
+       {/* { switchmenue()} */}
        
         </>
     )

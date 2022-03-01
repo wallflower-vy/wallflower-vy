@@ -1,36 +1,38 @@
 .card{
     
-    width: 250px;
+    width: 255px;
     padding: 20px;
     float:left;
-    color:#000;
+    color:#000000;
     height: 245px;
     border-radius: 10px !important;
 }
 .text{
-    font-size: 17px;
+    font-size: 22px;
 }
 .box{
     background-color: #FF4829;
     opacity: .9;
-    padding:10px;
+    padding:5px 10px 8px 10px;
+    text-align: center;
     border-radius: 50%;
     border:none;
+   
     width:25%;
-    margin-bottom: 19px;
+    /* height: 25%; */
+    /* margin-bottom: 19px; */
 }
-.hand{
-    text-align: center;
-    border: none;
-    font-size: 20px;
-
+/* .hand{
+    text-align: center
+    border: none; 
+    font-size: 18px;
     color: white;
     
-}
+} */
 .green{
     background-color: #00D1A6;
     opacity: .9;
-    padding:10px;
+    padding:5px 10px 8px 10px;
     border-radius: 50%;
     border:none;
     width:25%;
@@ -39,7 +41,7 @@
 .blue{
     background-color: #009AEF;
     opacity: .9;
-    padding:10px;
+    padding:5px 10px 8px 10px;
     border-radius: 50%;
     border:none;
     width:25%;
@@ -48,7 +50,7 @@
 .orange{
     background-color: #FFA035;
     opacity: .9;
-    padding:10px;
+    padding:5px 10px 8px 10px;
     border-radius: 50%;
     border:none;
     width:25%;
@@ -81,9 +83,9 @@
         margin-bottom: 19px;
     }
     .hand{
-        text-align: center;
+        /* text-align: center;
         border: none;
-        color: white;
+        color: white; */
         
         
     }

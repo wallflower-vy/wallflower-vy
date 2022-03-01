@@ -1,11 +1,16 @@
 .banner-box{
     background-color:#5373E3;
+    /* background-color: #ffc728; */
     /* background-color: red; */
     color:aliceblue;
+    box-sizing: border-box;
     overflow: auto;
     width:100%;
     padding:60px 90px;
-    /* height: 1000px; */
+    /* position: relative; */
+    /* transform: skew(0deg, -10deg) translateY(-120px); */
+    /* clip-path: ellipse(126% 100% at -9.28% 0%); */
+    height: 700px;
 }
 
 
@@ -15,6 +20,6 @@
         color:aliceblue;
         overflow:none;
         width:100%;
-        padding:60px 90px ;
+        padding:60px 90px;
     }
 }
